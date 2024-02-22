@@ -16,7 +16,7 @@ body {
 }
 .container {
   max-width: 300px;
-  margin: auto
+  margin: auto;
 }
 .header {
   color: #fff;
@@ -46,10 +46,8 @@ body {
 }
 .user-avatar {
   margin-top: -54px;
-  border-radius: 50%
-  object-fit: cover; /*чтоб картинка не растягивалась*/
-  border: 4px solid rgb(255, 255, 255);
-} 
+  border-radius: 50%;
+}
 .user-name {
   margin-top: 11px;
   margin-bottom: 4px;
@@ -59,8 +57,49 @@ body {
 }
 .user-description {
   color: rgb(72, 72, 72);
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-margin-top: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-top: 4px;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px 5px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 253, 253);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 280px;
+  margin: auto;
+  gap: 10px;
+  margin-bottom: 11px;
+}
+.button {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  gap: 10px;
+}
+.button.vk {
+  background: #4c75a3;
+}
+.button.tg {
+  background: #0088cc;
+}
+.button.youtube {
+  background: #ff0000;
 }
